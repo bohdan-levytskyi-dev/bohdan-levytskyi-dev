@@ -1,0 +1,11 @@
+;;
+;;	Domain:    custom-broker.com.ua
+;; 	Exported:  2025-05-22 15:00:48
+;;
+$ORIGIN custom-broker.com.ua
+$TTL 900
+@	IN	A	91.206.201.61
+www	IN	A	91.206.201.61
+*	IN	A	91.206.201.61
+@	IN	MX	0 mx.services.
+@	IN	TXT	v=spf1 include:_spf.ukraine.com.ua ~all
